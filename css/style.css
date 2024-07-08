@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("g");
+  background-repeat: no-repeat;
+  background-position: right top;
+  }
+  
+  header {
+    text-align: center;
+  }
+
+ 
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align:center;
+    color: hsl(271, 80%, 52%);
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif; 
+       
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  section {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    flex: 1 1 45%;
+  }
+  
+  .find-your-match form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .find-your-match button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .picnic-ideas ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .picnic-ideas li {
+    margin-bottom: 5px;
+  }
+  
+  #show-more {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+  }
