@@ -2,7 +2,7 @@
 $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "travelnestor";
+    $dbname = "romance_al_fresco";
     // Create connection
     $conn = mysqli_connect($servername, $username, $password,$dbname);
     
@@ -11,4 +11,3 @@ $servername = "localhost";
       die("Connection failed: " . mysqli_connect_error());
     }
     echo "Connected successfully";
-?>

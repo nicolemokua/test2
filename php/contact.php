@@ -55,7 +55,7 @@
       </section>
     </main>
     <?php
-    require 'Connection.php';
+    require 'connection.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST["name"], $_POST["email"], $_POST["message"],)) {
         $Name = $_POST["name"];
@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 // Footer content
 $year = date("Y");
-$footer = "<footer><p>&copy $year TravelNestor. All Rights Reserved.</p></footer>";
+$footer = "<footer><p>&copy $year RomanceAlFresco. All Rights Reserved.</p></footer>";
 // Output footer
 print($footer);
  
